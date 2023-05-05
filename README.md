@@ -23,7 +23,7 @@ pip install ./dist/stp2stl-0.0.1-py3-none-any.whl
 You can find an example export.json file [here](http://github.com/jrlomas/stp2stl/examples/export.json).  For completeness here it is inline:
 ```json
 {
-    "filename" : "./examples/sample.step",
+    "filename" : "./sample.step",
     "stl_filepath" : "./stl",
     "components" : [{"component" : "Leaf1",
                      "rotations" : [{ "axis" : "y", "degrees" : -90}],
@@ -47,11 +47,10 @@ Under ``components`` one can define each one of the STLs to export.  The ``compo
 
 ``stl_filename`` is the name of the stl file to write under the ``stl_filepath`` provided.
 
-Now run the script:
+Now try the script:
 
 ```bash
-$ python -m stl2stp export.json
-#or
+$ cd ~/stp2stl/examples
 $ stl2stp export.json
 ```
 

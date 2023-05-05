@@ -90,7 +90,7 @@ def export_stls(parts_config):
                 elif rotation['axis'] == 'z':
                     result = result.rotate((0,0,0),(0,0,1),rotation['degrees'])
 
-        cq.exporters.export(result,component['stl_filename'])
+        cq.exporters.export(result,os.path.join(parts_config['stl_filepath'],component['stl_filename']))
 
     print("Done")
 

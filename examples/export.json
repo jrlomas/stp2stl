@@ -1,5 +1,5 @@
 {
-    "filename" : "./examples/sample.step",
+    "filename" : "./sample.step",
     "stl_filepath" : "./stl",
     "components" : [{"component" : "Leaf1",
                      "rotations" : [{ "axis" : "y", "degrees" : -90}],
