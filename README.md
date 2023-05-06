@@ -51,7 +51,7 @@ Now try the script:
 
 ```bash
 $ cd ~/stp2stl/examples
-$ stl2stp export.json
+$ stp2stl export.json
 ```
 
 ## Support
