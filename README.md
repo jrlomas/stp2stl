@@ -20,7 +20,7 @@ pip install ./dist/stp2stl-0.0.1-py3-none-any.whl
 
 ## Usage
 
-You can find an example export.json file [here](http://github.com/jrlomas/stp2stl/examples/export.json).  For completeness here it is inline:
+You can find an example export.json file [here](https://github.com/jrlomas/stp2stl/blob/master/examples/export.json).  For completeness here it is inline:
 ```json
 {
     "filename" : "./sample.step",
