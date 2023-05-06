@@ -9,7 +9,7 @@ A utility written in python3 to convert STEP files to STLs.  The project depends
 cd
 sudo apt install python3 python3-venv
 python3 -m venv ~/.venv/stp2stl
-source ~/.venv/stp2stl/bin/active
+source ~/.venv/stp2stl/bin/activate
 pip install --upgrade pip
 git clone https://github.com/jrlomas/stp2stl
 cd stp2stl
